@@ -1,9 +1,11 @@
 <?php
 
-use TightenCo\Jigsaw\Jigsaw;
+use App\Listeners\SetupCnameFile;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
+
+$events->afterBuild(SetupCnameFile::class);
 
 /**
  * You can run custom code at different stages of the build process by
@@ -15,3 +17,5 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
+
+
