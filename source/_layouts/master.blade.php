@@ -27,6 +27,8 @@
     <meta property="og:site_name" content="{{ $page->title }}">
 
 
+
+
 {{--    <meta property="og:title" content="{{ $page->title }}">--}}
 {{--    <meta property="og:url" content="{{ get_url(path=page.path, trailing_slash=false) }}">--}}
 {{--    <meta property="og:description" content="{{ page.summary | markdown(inline=true) }}">--}}
@@ -71,7 +73,6 @@
     {{--        gtag('js', new Date());--}}
     {{--        gtag('config', '{{ config.extra.google_analytics.id }}');--}}
     {{--    </script>--}}
-
 </head>
 
 <body>
@@ -99,4 +100,5 @@
 </footer>
 
 </body>
+<script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </html>

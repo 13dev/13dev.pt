@@ -13,5 +13,6 @@ mix.jigsaw()
             require('postcss-import'),
             require('tailwindcss'),
         ],
+
     })
     .version();
