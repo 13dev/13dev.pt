@@ -6,6 +6,8 @@ return [
     'title' => 'Leo Oliveira',
     'description' => 'Web Developer',
     'collections' => [
-
+        'posts' => [
+            'extends' => '_layouts.post',
+        ],
     ],
 ];
