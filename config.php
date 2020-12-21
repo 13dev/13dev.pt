@@ -2,8 +2,10 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
-    'collections' => [],
+    'baseUrl' => 'http://localhost:3000',
+    'title' => 'Leo Oliveira',
+    'description' => 'Web Developer',
+    'collections' => [
+
+    ],
 ];
