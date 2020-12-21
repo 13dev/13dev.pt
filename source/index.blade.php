@@ -1,3 +1,8 @@
+---
+pagination:
+    collection: posts
+    perPage: 3
+---
 @extends('_layouts.master')
 
 @section('body')
