@@ -11,8 +11,6 @@ mix.jigsaw()
         processCssUrls: false,
         postCss: [
             require('postcss-import'),
-            require('tailwindcss'),
         ],
-
     })
     .version();
